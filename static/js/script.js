@@ -64,7 +64,7 @@ window.addEventListener("click", (event) => {
 document.addEventListener("DOMContentLoaded", () => {
 
     // Fetch the data from our new JSON file
-    fetch('/json/products.json')
+    fetch('../json/products.json')
         .then(response => {
             if (!response.ok) throw new Error("Could not load products.json");
             return response.json();
