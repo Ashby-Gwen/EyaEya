@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyaEya.com | Beautiful Bags for Men & Women</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="navbar">
+        <div class="logo">EyaEya.com</div>
+        <nav>
+            <a href="#women">Women</a>
+            <a href="#men">Men</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Find Your Perfect Match</h1>
+        <p>Premium bags designed for your everyday adventures.</p>
+    </section>
+
+    <section id="women" class="category-section">
+        <h2>Women's Collection</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="./images/women-bag1.jpg" alt="Women's Bag" class="product-img">
+                <div class="product-details">
+                    <h3>Blush Pink Tote</h3>
+                    <p class="price">$45.00</p>
+                    <button class="buy-btn" onclick="openModal('Blush Pink Tote')">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./images/women-bag2.jpg" alt="Women's Bag" class="product-img">
+                <div class="product-details">
+                    <h3>Violet Crossbody</h3>
+                    <p class="price">$35.00</p>
+                    <button class="buy-btn" onclick="openModal('Violet Crossbody')">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="men" class="category-section">
+        <h2>Men's Collection</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="./images/men-bag1.jpg" alt="Men's Bag" class="product-img">
+                <div class="product-details">
+                    <h3>Modern Messenger</h3>
+                    <p class="price">$55.00</p>
+                    <button class="buy-btn" onclick="openModal('Modern Messenger')">Buy Now</button>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Complete Your Purchase!</h2>
+            <p>You selected: <strong id="selectedItem"></strong></p>
+            <p class="modal-subtitle">Reach out through any of the channels below to arrange payment and shipping.</p>
+            
+            <div class="contact-methods">
+                <a href="mailto:youremail@example.com" class="contact-link email">📧 Email Us</a>
+                <a href="https://m.me/yourprofile" target="_blank" class="contact-link messenger">💬 Messenger</a>
+                <a href="tel:+1234567890" class="contact-link phone">📞 +1 234 567 890</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
