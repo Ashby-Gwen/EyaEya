@@ -1,0 +1,56 @@
+{
+  "women": [
+    {
+      "source": "./static/images/bag-1.jpg",
+      "h3": "Blue Hand Bag",
+      "price": "PHP 625.00"
+    },
+    {
+      "source": "./static/images/bag-2.jpg",
+      "h3": "White Striped Hand Bag",
+      "price": "PHP 625.00"
+    },
+    {
+      "source": "./static/images/bag-3.jpg",
+      "h3": "Pastel Green Hand Bag",
+      "price": "PHP 495.00"
+    },
+    {
+      "source": "./static/images/bag-4.jpg",
+      "h3": "Khaki Hand Bag",
+      "price": "PHP 625.00"
+    },
+    {
+      "source": "./static/images/bag-5.jpg",
+      "h3": "Black Hand Bag",
+      "price": "PHP 625.00"
+    },
+    {
+      "source": "./static/images/bag-6.jpg",
+      "h3": "Gray Hand Bag",
+      "price": "PHP 625.00"
+    },
+    {
+      "source": "./static/images/bag-7.jpg",
+      "h3": "Blue Hand Bag",
+      "price": "PHP 625.00"
+    },
+    {
+      "source": "./static/images/bag-8.jpg",
+      "h3": "Violet Crossbody",
+      "price": "PHP 545.00"
+    }
+  ],
+  "men": [
+    {
+      "source": "./static/images/men-bag1.jpg",
+      "h3": "Modern Messenger",
+      "price": "PHP 55.00"
+    },
+    {
+      "source": "./static/images/men-bag2.jpg",
+      "h3": "Classic Leather Briefcase",
+      "price": "PHP 75.00"
+    }
+  ]
+}

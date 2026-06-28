@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyaEya.com | Beautiful Bags for Men & Women</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="navbar">
+        <div class="logo">EyaEya.com</div>
+        <nav>
+            <a href="#women">Women</a>
+            <a href="#men">Men</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Find Your Perfect Match</h1>
+        <p>Premium bags designed for your everyday adventures.</p>
+    </section>
+
+    <section id="women" class="category-section">
+        <h2>Women's Collection</h2>
+        <div id="women-grid" class="product-grid"></div>
+    </section>
+
+    <section id="men" class="category-section">
+        <h2>Men's Collection</h2>
+        <div id="men-grid" class="product-grid"></div>
+    </section>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Complete Your Purchase!</h2>
+            <p>You selected: <strong id="selectedItem"></strong></p>
+            
+            <div class="copy-message-container" style="margin: 20px 0;">
+                <p style="font-size: 0.85rem; margin-bottom: 8px; color: #555;">Copy this message to send to the seller:</p>
+                <textarea id="orderTemplate" readonly style="width: 100%; height: 90px; padding: 10px; border-radius: 8px; border: 1px solid var(--muted-pink); font-family: inherit; font-size: 0.9rem; resize: none; background-color: #fcf9fa; color: #444;"></textarea>
+                <button id="copyBtn" onclick="copyToClipboard()" style="margin-top: 8px; width: 100%; border: none; padding: 8px; border-radius: 8px; background-color: var(--muted-pink); color: var(--dark-text); font-weight: 700; cursor: pointer; transition: all 0.3s;">📋 Copy Message</button>
+            </div>
+            <p class="modal-subtitle">Paste it into any of our channels below to contact us:</p>
+            
+            <div class="contact-methods">
+                <a href="mailto:youremail@example.com" class="contact-link email">📧 Email Us</a>
+                <a href="https://m.me/yourprofile" target="_blank" class="contact-link messenger">💬 Messenger</a>
+                <a href="tel:+1234567890" class="contact-link phone">📞 +1 234 567 890</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
+
